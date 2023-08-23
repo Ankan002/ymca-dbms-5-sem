@@ -1,0 +1,1 @@
+ALTER TABLE Student unique (roll_number, branch);

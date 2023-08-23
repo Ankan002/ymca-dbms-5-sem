@@ -1,0 +1,1 @@
+INSERT INTO student VALUES('2bf9bce5-a856-45c0-83a0-81298bd8f4ee', 22001003505, 'Komal', 'CSE');
