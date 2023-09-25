@@ -9,6 +9,8 @@ CREATE TABLE Client_Master(
     bal_due NUMERIC(10, 2)
 );
 
+SELECT * FROM Client_Master;
+
 CREATE TABLE Product_Master(
     product_no VARCHAR(6) PRIMARY KEY,
     description VARCHAR(15),
@@ -19,6 +21,8 @@ CREATE TABLE Product_Master(
     sell_price NUMERIC(8, 2),
     cost_price NUMERIC(8, 2)
 );
+
+SELECT * FROM Product_Master;
 
 CREATE TABLE Salesman_Master(
     salesman_no VARCHAR(6) PRIMARY KEY,
@@ -33,3 +37,5 @@ CREATE TABLE Salesman_Master(
     ytd_sales NUMERIC(6, 2),
     remarks VARCHAR(60)
 );
+
+SELECT * FROM Salesman_Master;
