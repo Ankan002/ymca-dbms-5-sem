@@ -73,4 +73,10 @@ CREATE VIEW <name> AS SELECT <attr> FROM <table_name> WHERE <condition>
 CREATE VIEW EMP_V as SELECT emp_id, f_name, l_name, super_id FROM EMP;
 ```
 
+Types:
+
+- Updatable View: If we can insert or modify data in main table. If the primary key and all the not null attributes are included in the view then the view is always updatable. If primary key and not null attributes are not the part of view deletion and modification is still possible.
+
+- Non Updatable View: If we cannot insert or modify data in main table.
+
 
