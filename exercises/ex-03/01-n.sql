@@ -1,0 +1,1 @@
+SELECT * FROM PRODUCT_MASTER WHERE qty_on_hand < reorder_lvl;

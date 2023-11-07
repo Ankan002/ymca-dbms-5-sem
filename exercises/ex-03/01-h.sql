@@ -1,0 +1,1 @@
+SELECT product_no, description, sell_price, sell_price * 15 AS new_selling_price FROM PRODUCT_MASTER WHERE sell_price > 500;

@@ -1,0 +1,1 @@
+SELECT * FROM CLIENT_MASTER WHERE city IN ('Mangalore', 'Bangalore');

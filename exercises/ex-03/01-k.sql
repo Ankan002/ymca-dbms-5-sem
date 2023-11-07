@@ -1,0 +1,1 @@
+SELECT AVG(sell_price) FROM PRODUCT_MASTER;

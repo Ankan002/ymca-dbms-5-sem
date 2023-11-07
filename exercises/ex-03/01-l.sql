@@ -1,0 +1,1 @@
+SELECT MIN(sell_price) as min_price, MAX(sell_price) as max_price FROM PRODUCT_MASTER;

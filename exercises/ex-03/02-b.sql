@@ -1,0 +1,1 @@
+SELECT TO_CHAR(dely_date, 'MONTH'), dely_date FROM sales_order;

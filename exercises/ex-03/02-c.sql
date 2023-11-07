@@ -1,0 +1,1 @@
+SELECT TO_CHAR(order_date, 'DD-Month-YY') as order_date FROM sales_order;

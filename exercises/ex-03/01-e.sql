@@ -1,0 +1,1 @@
+SELECT * FROM SALES_ORDER WHERE EXTRACT('MONTH' from order_date) = 6;

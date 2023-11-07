@@ -1,0 +1,1 @@
+SELECT order_no, EXTRACT('DAY' from order_date) FROM sales_order;

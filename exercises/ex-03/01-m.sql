@@ -1,0 +1,1 @@
+SELECT COUNT(product_no) as product_count FROM PRODUCT_MASTER WHERE sell_price <= 500;

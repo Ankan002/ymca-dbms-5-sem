@@ -1,0 +1,1 @@
+SELECT COUNT(order_no) AS product_count FROM SALES_ORDER; 
