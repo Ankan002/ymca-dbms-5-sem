@@ -1,0 +1,1 @@
+SELECT * FROM ROOM WHERE (type='Double-Room' OR type='Family-Room') AND price < 4000 ORDER BY price ASC;

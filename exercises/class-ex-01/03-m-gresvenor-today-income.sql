@@ -1,0 +1,1 @@
+SELECT SUM(R.price) FROM HOTEL AS H, ROOM AS R, BOOKING AS B WHERE H.name = 'Grosvenor' AND H.hotel_no = B.hotel_no AND H.hotel_no = R.hotel_no AND R.room_no = B.room_no AND B.date_from < CURRENT_DATE AND B.date_to > CURRENT_DATE;

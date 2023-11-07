@@ -1,0 +1,1 @@
+SELECT G.guest_no AS GUEST_NUMBER, G.name AS GUEST_NAME FROM BOOKING AS B, GUEST AS G WHERE B.guest_no = G.guest_no AND EXTRACT('MONTH' from B.date_from) = 8; 

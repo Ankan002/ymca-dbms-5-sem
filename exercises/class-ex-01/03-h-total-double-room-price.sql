@@ -1,0 +1,1 @@
+SELECT SUM(price) AS TOTAL_PRICE FROM ROOM WHERE type='Double-Room';

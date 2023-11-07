@@ -1,0 +1,1 @@
+SELECT G.name, G.city FROM HOTEL AS H, GUEST AS G, BOOKING AS B WHERE H.hotel_no=B.hotel_no AND G.guest_no=B.guest_no AND H.city='London' ORDER BY G.name ASC;
